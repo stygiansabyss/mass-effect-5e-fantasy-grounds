@@ -29,3 +29,36 @@ This mod only aims to make using fantasy grounds easier for anyone following the
 		4. Vehicle Handling
 3. Grab the extension
 	1. I am working on an extension to add more of the rules directly into Fantasy Grounds.  You can find it [here on github](https://github.com/stygiansabyss/mass-effect-5e-fantasy-grounds-ext).
+
+# Unique Choices Made
+
+## Shields
+
+Until the extension piece of this handles it better, I have currently elected to use Temp HP for shields.  Its a bit annoying, especially when dealing with shields AND tech armor, but it's the best I have found so far.
+
+## Spells
+
+Spells are added as 3 spells per.  One for the base spell and one for each advancement.  I tried to change the text correctly for the advancements.
+
+For ease of filtering and organizing, I did the following for each spell.
+
+- The `School` is what will use Tech, Biotic, or Combat.
+- The `Source` will show what classes can use it.
+- The `Components` will be used for Prime and Detonates keywords.
+
+## Conditions
+
+If you look in the spell list, you will notice a source called `Generic`.  This has "spells" I made to make applying certain conditions easier.
+
+- Lifted
+	- This contains effects when put on a character sheet that will apply "Primed: Force" and "Restrained" to a target.
+- Primers
+	- This will contain all available prime options that can be easily applied to a target.
+- Shields
+	- Currently, this allows you to set a Temporary HP heal to add shields.
+
+## Naming Convetions
+
+In the rules for the Mass Effect conversion, they have done a great job of switching spell to power in their text.  The problem with this is that Fantasy Grounds uses key sentence hunting to do it magic behind the scenes.  So while "Ranged power attack" is correct for the setting, "Ranged spell attack" is used in the power descriptions.
+
+The same is true for GP.  I have not tested to see if setting something to Credits works, so for now all prices are listed in GP.  They are using the credits value though, so you do not need to divide by 100.
