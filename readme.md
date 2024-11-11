@@ -21,20 +21,28 @@ This mod only aims to make using fantasy grounds easier for anyone following the
 1. Once in your game, go to options.  Click the currencies button.
     1. Remove all but GP.
     2. Rename GP to Credits.
-2. Until I get the extension to do it, the module does not automatically load the new skills onto the character sheet.
+    3. This is handled for you if you have the extension.
+2. The module does not automatically load the new skills onto the character sheet.
 	1. For each character sheet, open the Character > Skills window (in the right side menu) and drag the following skills on to the character sheet.
 		1. Electronics
 		2. Engineering
 		3. Science
 		4. Vehicle Handling
+	2. This is handled for you if you have the extension.
 3. Grab the extension
 	1. I am working on an extension to add more of the rules directly into Fantasy Grounds.  You can find it [here on github](https://github.com/stygiansabyss/mass-effect-5e-fantasy-grounds-ext).
+4. Add the Advanced Effects extension
+	1. I have enabled the mods of the game to use advanced effects.
+	2. If you have the extension adtive in your game, the mods will have any effects that would work for them in fantasy grounds to accomplish their effect.
+	3. To make equipping and unequipping easier, when you add a mod to your inventory, set its location to the name of the weapon or armor piece that will use it.  This will allow you to equip/unequip the weapon or armor piece to enable/disable the effects
 
 # Unique Choices Made
 
 ## Shields
 
-Until the extension piece of this handles it better, I have currently elected to use Temp HP for shields.  Its a bit annoying, especially when dealing with shields AND tech armor, but it's the best I have found so far.
+I have currently elected to use Temp HP for shields.  Its a bit annoying, especially when dealing with shields AND tech armor, but it's the best I have found so far.
+
+Using the extension will give you full support for barrier, tech armor, and shields.
 
 ## Spells
 
