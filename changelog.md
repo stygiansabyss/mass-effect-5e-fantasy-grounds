@@ -9,6 +9,7 @@
 * Fixed Hawk Missle Launcher 3 headed variant damage type
 * Fixed Justice attack roll
 * Fixed typo in Tactical Scan for ADVATK
+* Fixed Tactical scan to place GRANTADVATK on target
 
 # Nov 15 2024
 

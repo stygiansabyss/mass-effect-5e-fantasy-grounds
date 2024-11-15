@@ -15526,7 +15526,7 @@
 					<p>Darkvision 30 feet. Infrared Vision 30 feet. You can toggle between the 2 vision types as a free action.</p>
 					<h>Set Bonus</h>
 					<p>
-						<b>(2 of 2)</b>: Extended air supply allows the wearer to breathe in unfriendly environments for up to 48 hours.</p>
+						<b>(2 of 2) </b>: Extended air supply allows the wearer to breathe in unfriendly environments for up to 48 hours.</p>
 				</description>
 				<effectlist />
 				<grenade_cap type="number">0</grenade_cap>
@@ -15549,7 +15549,7 @@
 					<list>
 						<li>Paragon actions are open-ended (allowing for future possibilities), utilitarian (benefits the most people), logical, and tend to use persuasion over intimidation or brute force.</li>
 						<li>
-							<b>Renegade</b> actions are decisive and final, emotional, gain immediate results, and often use a show of force.</li>
+							<b>Renegade </b>actions are decisive and final, emotional, gain immediate results, and often use a show of force.</li>
 					</list>
 					<p />
 					<p>While paragon actions tend to be lawful and/or good, and renegade actions tend to be evil and/or chaotic, this is not an absolute. See A Complex Renegade and Paragon Example below.</p>
@@ -15576,15 +15576,15 @@
 							<td>1-20</td>
 						</tr>
 						<tr>
-							<td>5-10 </td>
+							<td>5-10</td>
 							<td>21-50</td>
 						</tr>
 						<tr>
-							<td>11-17 </td>
+							<td>11-17</td>
 							<td>51-99</td>
 						</tr>
 						<tr>
-							<td>17+ </td>
+							<td>17+</td>
 							<td>100+</td>
 						</tr>
 					</table>
@@ -38212,6 +38212,12 @@
 						<savetype type="string">dexterity</savetype>
 						<type type="string">cast</type>
 					</id-00002>
+					<id-00003>
+						<durmod type="number">1</durmod>
+						<label type="string">Targeted; GRANTADVATK; (C)</label>
+						<order type="number">3</order>
+						<type type="string">effect</type>
+					</id-00003>
 				</actions>
 				<castingtime type="string">1 action</castingtime>
 				<description type="formattedtext">
@@ -38234,7 +38240,7 @@
 				<actions>
 					<id-00001>
 						<durmod type="number">1</durmod>
-						<label type="string">Target Painting: Heavy Weapon Sync</label>
+						<label type="string">Target Painting</label>
 						<order type="number">2</order>
 						<targeting type="string">self</targeting>
 						<type type="string">effect</type>
@@ -38245,6 +38251,12 @@
 						<savetype type="string">dexterity</savetype>
 						<type type="string">cast</type>
 					</id-00002>
+					<id-00003>
+						<durmod type="number">1</durmod>
+						<label type="string">Targeted; GRANTADVATK; (C)</label>
+						<order type="number">3</order>
+						<type type="string">effect</type>
+					</id-00003>
 				</actions>
 				<castingtime type="string">1 action</castingtime>
 				<description type="formattedtext">
@@ -38268,7 +38280,9 @@
 			<id-00228>
 				<actions>
 					<id-00001>
-						<label type="string">Target Painting: Lasting Scan; (C)</label>
+						<durmod type="number">1</durmod>
+						<durunit type="string">minute</durunit>
+						<label type="string">Target Painting</label>
 						<order type="number">2</order>
 						<targeting type="string">self</targeting>
 						<type type="string">effect</type>
@@ -38283,6 +38297,13 @@
 						<savetype type="string">dexterity</savetype>
 						<type type="string">cast</type>
 					</id-00002>
+					<id-00003>
+						<durmod type="number">1</durmod>
+						<durunit type="string">minute</durunit>
+						<label type="string">Targeted; GRANTADVATK; (C)</label>
+						<order type="number">3</order>
+						<type type="string">effect</type>
+					</id-00003>
 				</actions>
 				<castingtime type="string">1 action</castingtime>
 				<description type="formattedtext">
