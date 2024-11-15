@@ -14655,6 +14655,7 @@
 						<link class="item" recordname="item.id-00103">Item: Starship System: Weapons</link>
 					</linklist>
 				</description>
+				<effectlist />
 				<name type="string">Starship System Proficiencies</name>
 				<rarity type="string">Common</rarity>
 				<subtype type="string">Systems</subtype>
@@ -14959,6 +14960,7 @@
 					</linklist>
 				</description>
 				<effectlist />
+				<heat type="number">0</heat>
 				<name type="string">M-76 Revenant</name>
 				<picture type="token">images/item_weapon_m_76_revenant.webp</picture>
 				<properties type="string">Ammunition (range 25/75), loading, two-handed, burst fire</properties>
@@ -15515,6 +15517,114 @@
 				<type type="string">Weapon</type>
 				<weight type="number">11</weight>
 			</id-00129>
+			<id-00130>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">9350</cost>
+				<description type="formattedtext">
+					<frame>The Andromeda Initiative's mission is one of discovery and exploration, as well as colonization. Readying personnel to journey into harsh environments-and even the void of space was always part of the plan. Thus, the Initiative's custom Deep Space Explorer (DSE) hardsuit is equipped with multiple environment seals, failsafes, a hefty liquid oxygen supply, a formidable kinetic barrier generator, and an array of scientific instruments. Although many were built, most were mysteriously lost en route to Andromeda.</frame>
+					<p>Darkvision 30 feet. Infrared Vision 30 feet. You can toggle between the 2 vision types as a free action.</p>
+					<h>Set Bonus</h>
+					<p>
+						<b>(2 of 2)</b>: Extended air supply allows the wearer to breathe in unfriendly environments for up to 48 hours.</p>
+				</description>
+				<effectlist />
+				<grenade_cap type="number">0</grenade_cap>
+				<medi_gel_cap type="number">0</medi_gel_cap>
+				<name type="string">Deep Space Exporer Helmet</name>
+				<picture type="token">images/item_armor_deep_space_explorer_helmet.webp</picture>
+				<rarity type="string">Spectre</rarity>
+				<shield_max type="number">0</shield_max>
+				<shield_regen type="number">0</shield_regen>
+				<subtype type="string">Medium Armor, Head</subtype>
+				<thermal_clip_cap type="number">0</thermal_clip_cap>
+				<type type="string">Armor</type>
+				<weight type="number">0</weight>
+			</id-00130>
+			<id-00131>
+				<description type="formattedtext">
+					<h>Overview</h>
+					<p>Reputation in ME5e is the measure of your operative&#8217;s actions, whereas alignment in ME5e is the representation of your character&#8217;s ideals or moral attitudes (your character wants to be good or evil, but there may be outstanding circumstances or exceptions). In ME5e, the reputation of your operative&#8217;s actions is measured in &#34;Paragon&#34; and &#34;Renegade&#34;, but these are not synonymous with &#8220;good&#8221; and &#8220;evil.&#8221; The culmination of actions can rarely be judged as empirically &#8220;good&#8221; or &#8220;evil.&#8221; Therefore &#8220;Paragon&#8221; and &#8220;Renegade&#8221; represent characteristics of your action&#8217;s motivation and/or outcomes rather than any subjective &#8220;goodness&#8221; or &#8220;evilness.&#8221;</p>
+					<p />
+					<list>
+						<li>Paragon actions are open-ended (allowing for future possibilities), utilitarian (benefits the most people), logical, and tend to use persuasion over intimidation or brute force.</li>
+						<li>
+							<b>Renegade</b> actions are decisive and final, emotional, gain immediate results, and often use a show of force.</li>
+					</list>
+					<p />
+					<p>While paragon actions tend to be lawful and/or good, and renegade actions tend to be evil and/or chaotic, this is not an absolute. See A Complex Renegade and Paragon Example below.</p>
+					<p />
+					<p>Paragon and renegade are not a single sliding scale. A paragon action will not make up for a renegade one; therefore, a low paragon reputation will not stop people from fearing a killer or remove the reputation of an unsympathetic heel. Nor will the occasional brutal action significantly damage the reputation of an otherwise upstanding soldier.</p>
+					<p />
+					<h>Earning Reputation</h>
+					<p>Like inspiration, gaining reputation is a reward for roleplaying your character and is entirely at the GMs discretion. Your GM can choose to reward paragon or renegade reputation for a variety of reasons, but typically it is rewarded based on an action you take or an action your party makes. You can gain any amount of paragon and/or renegade simultaneously. Additionally, reputation can be rewarded to the entire party, individually, or both. See A Complex Renegade and Paragon Example below for a detailed example.</p>
+					<p />
+					<p>Your GM can award any amount of paragon or renegade reputation for your actions, but you can never have more than a score of 100 in either reputation. For example&#8217;s sake, a character with a 100 reputation score in either would have galactic-wide notoriety. So your GM can certainly allow totals more than 100, but there are no additional benefits for exceeding 100. For GMs, see the Total Reputation per Tier table to assist with how often and how much reputation you should reward. Note that total reputation equals the summation of a player&#8217;s paragon and renegade scores.</p>
+					<p />
+					<h>Total Reputation per Tier</h>
+					<table>
+						<tr>
+							<td>
+								<b>Levels</b>
+							</td>
+							<td>
+								<b>Total Reputation</b>
+							</td>
+						</tr>
+						<tr>
+							<td>1-4</td>
+							<td>1-20</td>
+						</tr>
+						<tr>
+							<td>5-10 </td>
+							<td>21-50</td>
+						</tr>
+						<tr>
+							<td>11-17 </td>
+							<td>51-99</td>
+						</tr>
+						<tr>
+							<td>17+ </td>
+							<td>100+</td>
+						</tr>
+					</table>
+					<h>A Complex Renegade and Paragon Example</h>
+					<p>In Mass Effect 2, you are faced with the decision to save the genophage data (which might result in curing the genophage) or destroying it.</p>
+					<p />
+					<p>Assume a player party of a neutral human, a lawful good salarian, and a chaotic evil krogan. The salarian thinks curing the genophage could result in the destruction of the galaxy; thus, the most logical and utilitarian decision would be to destroy it; he even threatens his own party at gunpoint. The krogan speaks emotionally about her difficult upbringing and the countless children she&#8217;s lost, and wants to save the data. The human listens intently and ultimately sides with one or the other.</p>
+					<p />
+					<p>In this scenario, the outcome (saving or destroying the data) will represent the largest distribution of paragon or renegade points. Saving the data presents future possibilities (paragon) whereas destroying it is final (renegade). Thus, the GM may award 10 paragon or renegade points to the entire party. However, the GM can also award points based on the individual character's actions:</p>
+					<p />
+					<list>
+						<li>2 renegade points to the salarian. Their actions may have appeared logical, but their emotional fear of krogan destruction and threatening their own party was extremely &#8220;renegade-esque&#8221;</li>
+						<li>1 paragon point and 1 renegade point to the krogan, their actions were emotional but they used their words rather than drawing their weapon and trying to intimidate the salarian</li>
+						<li>2 paragon points to the human for remaining calm and emotionless and listening to all sides</li>
+					</list>
+					<p />
+					<p>The most important aspect of this new Reputation system is to give players more freedom with their actions outside of their chosen alignment. Thus, it is a reward for good role-playing rather than a resource one is meant to &#8220;grind.&#8221;</p>
+					<h>Benefits of Reputation</h>
+					<p>Whenever you gain reputation, you can choose one benefit from the list below. Each benefit lists a threshold and a prerequisite. To gain that benefit, your total reputation score must meet or exceed the threshold, and your individual scores (paragon or renegade) must meet the listed prerequisite. You gain benefits at certain thresholds</p>
+					<p />
+					<list>
+						<li>15, 30, 60, and 100 - but you can only gain one benefit per threshold.</li>
+					</list>
+					<p>In most cases, a prerequisite indicates a comparison of your renegade and paragon scores. For example, all paragon-based benefits require your paragon score to be greater than your renegade score, and vice versa. However, there are benefits that require your paragon and renegade scores to be relatively close to one another. For example, Prerequisite: Renegade = Paragon &#177; 5, indicates your renegade score must be equal to your paragon score plus or minus 5. Thus, if you had a renegade score of 10, you could have a paragon score between 5 and 15.</p>
+					<p />
+					<h>Losing and Changing Benefits</h>
+					<p>If gaining paragon or renegade causes you to no longer meet a benefit&#8217;s requirements, you lose that benefit when you take a long rest, representing the time it takes for your reputation to spread throughout social circles. During this long rest, you can replace the lost benefit with a new benefit as long as you meet the new benefit&#8217;s prerequisites and only select one benefit per threshold.</p>
+					<p />
+					<h>Reputation Ability</h>
+					<p>Your reputation is further advanced by your Charisma and you use your Charisma modifier when setting the saving throw DC of a reputation benefit. The DC = 8 + your proficiency bonus + your Charisma modifier.</p>
+					<p />
+					<h>Benefits</h>
+					<p>Look in the feats section and search for &#34;rep&#34;.</p>
+				</description>
+				<effectlist />
+				<name type="string">Reputation: Paragon &amp; Renegade</name>
+				<subtype type="string">Systems</subtype>
+				<type type="string">Information</type>
+				<weight type="number">0</weight>
+			</id-00131>
 			<id-00132>
 				<bonus type="number">0</bonus>
 				<cost type="string">14500 credits</cost>
@@ -16411,32 +16521,6 @@
 				<type type="string">Mod</type>
 				<weight type="number">0</weight>
 			</id-00172>
-			<id-00173>
-				<cost type="string">12000 credits</cost>
-				<description type="formattedtext">
-					<p>+1 bonus to power damage rolls</p>
-					<table>
-						<tr>
-							<td>
-								<b>Placement</b>
-							</td>
-							<td>
-								<b>Available For</b>
-							</td>
-						</tr>
-						<tr>
-							<td>Arms</td>
-							<td>All armor</td>
-						</tr>
-					</table>
-				</description>
-				<effectlist />
-				<name type="string">Amplifier Plates</name>
-				<rarity type="string">Rare</rarity>
-				<subtype type="string">Armor Mod</subtype>
-				<type type="string">Mod</type>
-				<weight type="number">0</weight>
-			</id-00173>
 			<id-00174>
 				<cost type="string">10000</cost>
 				<description type="formattedtext">
@@ -30094,8 +30178,10 @@
 			<id-00035>
 				<actions>
 					<id-00001>
+						<atkbase type="string">ability</atkbase>
 						<atkmod type="number">0</atkmod>
 						<atkprof type="number">1</atkprof>
+						<atkstat type="string">dexterity</atkstat>
 						<atktype type="string">ranged</atktype>
 						<order type="number">1</order>
 						<savedcmod type="number">0</savedcmod>
@@ -31181,8 +31267,10 @@
 			<id-00064>
 				<actions>
 					<id-00001>
+						<atkbase type="string">ability</atkbase>
 						<atkmod type="number">0</atkmod>
 						<atkprof type="number">1</atkprof>
+						<atkstat type="string">dexterity</atkstat>
 						<atktype type="string">ranged</atktype>
 						<order type="number">1</order>
 						<savedcbase type="string">fixed</savedcbase>
@@ -34286,13 +34374,13 @@
 					<id-00002>
 						<durmod type="number">10</durmod>
 						<label type="string">Scanned</label>
-						<order type="number">2</order>
+						<order type="number">1</order>
 						<type type="string">effect</type>
 					</id-00002>
 					<id-00003>
 						<durmod type="number">10</durmod>
-						<label type="string">IFT: CUSTOM(Scanned); ASVATK; CRIT 19</label>
-						<order type="number">3</order>
+						<label type="string">IFT: CUSTOM(Scanned); ADVATK; CRIT 19</label>
+						<order type="number">2</order>
 						<targeting type="string">self</targeting>
 						<type type="string">effect</type>
 					</id-00003>
@@ -34324,7 +34412,7 @@
 					</id-00002>
 					<id-00003>
 						<durmod type="number">10</durmod>
-						<label type="string">IFT: CUSTOM(Scanned); ASVATK; CRIT 19</label>
+						<label type="string">IFT: CUSTOM(Scanned); ADVATK; CRIT 19</label>
 						<order type="number">2</order>
 						<targeting type="string">self</targeting>
 						<type type="string">effect</type>
@@ -34359,7 +34447,7 @@
 					</id-00001>
 					<id-00002>
 						<durmod type="number">10</durmod>
-						<label type="string">IFT: CUSTOM(Scanned); ASVATK; CRIT 19; ADVSAV</label>
+						<label type="string">IFT: CUSTOM(Scanned); ADVATK; CRIT 19; ADVSAV</label>
 						<order type="number">2</order>
 						<targeting type="string">self</targeting>
 						<type type="string">effect</type>
@@ -34532,6 +34620,7 @@
 				<source type="string">Soldier, Tracker</source>
 			</id-00136>
 			<id-00137>
+				<actions />
 				<castingtime type="string">1 bonus action</castingtime>
 				<description type="formattedtext">
 					<p>Activate your personal shoulder cannon: The Hawk Missile Launcher. This attack automatically hits a target within range dealing 3d6 thunder damage.</p>
@@ -34543,31 +34632,15 @@
 				<duration type="string">Instant</duration>
 				<level type="number">0</level>
 				<name type="string">Hawk Missle Launcher</name>
+				<prepared type="number">0</prepared>
 				<range type="string">150 feet</range>
 				<ritual type="number">0</ritual>
 				<school type="string">Combat</school>
 				<shortdescription type="string">Standard</shortdescription>
 				<source type="string">Soldier, Tracker</source>
 			</id-00137>
-			<id-00138>
-				<castingtime type="string">1 bonus action</castingtime>
-				<description type="formattedtext">
-					<p>Activate your personal shoulder cannon: The Hawk Missile Launcher. This attack automatically hits all targets within range. Your missile splits into three separate missiles, each dealing 1d6 damage. You can direct the missiles at the same target or at different ones.</p>
-					<p />
-					<p>You can use the Hawk Missile Launcher once per short rest.</p>
-					<p />
-					<p>This feature's damage increases to 2d6 at 5th level, 3d6 at 11th level and 4d6 at 17th level.</p>
-				</description>
-				<duration type="string">Instant</duration>
-				<level type="number">0</level>
-				<name type="string">Hawk Missle Launcher: Three-Headed Beast</name>
-				<range type="string">150 feet</range>
-				<ritual type="number">0</ritual>
-				<school type="string">Combat</school>
-				<shortdescription type="string">Advancement</shortdescription>
-				<source type="string">Soldier, Tracker</source>
-			</id-00138>
 			<id-00139>
+				<actions />
 				<castingtime type="string">1 bonus action</castingtime>
 				<description type="formattedtext">
 					<p>Activate your personal shoulder cannon: The Hawk Missile Launcher. This attack automatically hits a target within range dealing 3d6 lightning damage as the EMP goes off.</p>
@@ -34579,6 +34652,7 @@
 				<duration type="string">Instant</duration>
 				<level type="number">0</level>
 				<name type="string">Hawk Missle Launcher: Anti-Shield</name>
+				<prepared type="number">0</prepared>
 				<range type="string">150 feet</range>
 				<ritual type="number">0</ritual>
 				<school type="string">Combat</school>
@@ -38271,6 +38345,180 @@
 				<shortdescription type="string">Standard</shortdescription>
 				<source type="string">Adept, Vanguard</source>
 			</id-00229>
+			<id-00230>
+				<actions>
+					<id-00001>
+						<atktype type="string">ranged</atktype>
+						<order type="number">1</order>
+						<type type="string">cast</type>
+					</id-00001>
+					<id-00002>
+						<durmod type="number">1</durmod>
+						<durunit type="string">minute</durunit>
+						<label type="string">DMGO: 1d6 necrotic; Primed: Necrotic; (C)</label>
+						<order type="number">3</order>
+						<type type="string">effect</type>
+					</id-00002>
+					<id-00003>
+						<damagelist>
+							<id-00001>
+								<bonus type="number">0</bonus>
+								<dice type="dice">d10</dice>
+								<stat type="string">base</stat>
+								<statmult type="number">1</statmult>
+								<type type="string">necrotic</type>
+							</id-00001>
+						</damagelist>
+						<order type="number">2</order>
+						<type type="string">damage</type>
+					</id-00003>
+				</actions>
+				<castingtime type="string">1 action</castingtime>
+				<components type="string">Primed: Necrotic</components>
+				<description type="formattedtext">
+					<p>Make a ranged spell attack on a creature you can see within range. On a hit, you plague the target with a persistent, damaging biotic field. The creature is primed: necrotic and takes 1d6 necrotic damage and 1d6 necrotic damage at the start of your turn while you maintain the power. If the creature dies, dark channel transfers to the nearest hostile creature within 30 feet of the target.</p>
+					<p />
+					<p>The damage increases by 1d6 when you reach the 5th level (2d6), 11th level (3d6) and 17th level (4d6).</p>
+				</description>
+				<duration type="string">Concentration, up to 1 minute</duration>
+				<group type="string">Spells (Adept)</group>
+				<level type="number">0</level>
+				<name type="string">Dark Channel</name>
+				<prepared type="number">1</prepared>
+				<range type="string">120 feet</range>
+				<ritual type="number">0</ritual>
+				<school type="string">Biotic</school>
+				<shortdescription type="string">Standard</shortdescription>
+				<source type="string">Adept</source>
+			</id-00230>
+			<id-00231>
+				<actions>
+					<id-00001>
+						<atktype type="string">ranged</atktype>
+						<order type="number">1</order>
+						<type type="string">cast</type>
+					</id-00001>
+					<id-00002>
+						<durmod type="number">1</durmod>
+						<durunit type="string">minute</durunit>
+						<label type="string">DMGO: 1d10 necrotic; Primed: Necrotic; (C)</label>
+						<order type="number">3</order>
+						<type type="string">effect</type>
+					</id-00002>
+					<id-00003>
+						<damagelist>
+							<id-00001>
+								<bonus type="number">0</bonus>
+								<dice type="dice">d10</dice>
+								<stat type="string">base</stat>
+								<statmult type="number">1</statmult>
+								<type type="string">necrotic</type>
+							</id-00001>
+						</damagelist>
+						<order type="number">2</order>
+						<type type="string">damage</type>
+					</id-00003>
+				</actions>
+				<castingtime type="string">1 action</castingtime>
+				<components type="string">Primed: Necrotic</components>
+				<description type="formattedtext">
+					<p>Make a ranged spell attack on a creature you can see within range. On a hit, you plague the target with a persistent, damaging biotic field. The creature is primed: necrotic and takes 1d10 necrotic damage and 1d10 necrotic damage at the start of your turn while you maintain the power. If the creature dies, dark channel transfers to the nearest hostile creature within 30 feet of the target.</p>
+					<p />
+					<p>The damage increases by 1d10 when you reach the 5th level (2d10), 11th level (3d10) and 17th level (4d10).</p>
+				</description>
+				<duration type="string">Concentration, up to 1 minute</duration>
+				<group type="string">Spells (Adept)</group>
+				<level type="number">0</level>
+				<name type="string">Dark Channel: Improved Damage</name>
+				<prepared type="number">1</prepared>
+				<range type="string">120 feet</range>
+				<ritual type="number">0</ritual>
+				<school type="string">Biotic</school>
+				<shortdescription type="string">Advancement</shortdescription>
+				<source type="string">Adept</source>
+			</id-00231>
+			<id-00232>
+				<actions>
+					<id-00001>
+						<atktype type="string">ranged</atktype>
+						<order type="number">1</order>
+						<type type="string">cast</type>
+					</id-00001>
+					<id-00002>
+						<durmod type="number">1</durmod>
+						<durunit type="string">minute</durunit>
+						<label type="string">DMGO: 1d6 necrotic; ATK: -1d4; SAVE: -1d4; Primed: Necrotic; (C)</label>
+						<order type="number">3</order>
+						<type type="string">effect</type>
+					</id-00002>
+					<id-00003>
+						<damagelist>
+							<id-00001>
+								<bonus type="number">0</bonus>
+								<dice type="dice">d6</dice>
+								<stat type="string">base</stat>
+								<statmult type="number">1</statmult>
+								<type type="string">necrotic</type>
+							</id-00001>
+						</damagelist>
+						<order type="number">2</order>
+						<type type="string">damage</type>
+					</id-00003>
+				</actions>
+				<castingtime type="string">1 action</castingtime>
+				<components type="string">Primed: Necrotic</components>
+				<description type="formattedtext">
+					<p>Make a ranged spell attack on a creature you can see within range. On a hit, you plague the target with a persistent, damaging biotic field. The creature is primed: necrotic and takes 1d6 necrotic damage and 1d6 necrotic damage at the start of your turn while you maintain the power. If the creature dies, dark channel transfers to the nearest hostile creature within 30 feet of the target.</p>
+					<p />
+					<p>If the affected creature would make a saving throw or attack roll, as a reaction you may increase the severity of Dark Channel. The affected creature must roll a d4 and subtract the number rolled from the attack roll or saving throw.</p>
+					<p />
+					<p>The damage increases by 1d6 when you reach the 5th level (2d6), 11th level (3d6) and 17th level (4d6).</p>
+				</description>
+				<duration type="string">Concentration, up to 1 minute</duration>
+				<group type="string">Spells (Adept)</group>
+				<level type="number">0</level>
+				<name type="string">Dark Channel: Cripple</name>
+				<prepared type="number">1</prepared>
+				<range type="string">120 feet</range>
+				<ritual type="number">0</ritual>
+				<school type="string">Biotic</school>
+				<shortdescription type="string">Advancement</shortdescription>
+				<source type="string">Adept</source>
+			</id-00232>
+			<id-00233>
+				<actions>
+					<id-00001>
+						<damagelist>
+							<id-00001>
+								<bonus type="number">0</bonus>
+								<dice type="dice">d6</dice>
+								<statmult type="number">1</statmult>
+								<type type="string">thunder</type>
+							</id-00001>
+						</damagelist>
+						<order type="number">1</order>
+						<type type="string">damage</type>
+					</id-00001>
+				</actions>
+				<castingtime type="string">1 bonus action</castingtime>
+				<description type="formattedtext">
+					<p>Activate your personal shoulder cannon: The Hawk Missile Launcher. This attack automatically hits all targets within range. Your missile splits into three separate missiles, each dealing 1d6 damage. You can direct the missiles at the same target or at different ones.</p>
+					<p />
+					<p>You can use the Hawk Missile Launcher once per short rest.</p>
+					<p />
+					<p>This feature's damage increases to 2d6 at 5th level, 3d6 at 11th level and 4d6 at 17th level.</p>
+				</description>
+				<duration type="string">Instant</duration>
+				<group type="string">Spells (Adept)</group>
+				<level type="number">0</level>
+				<name type="string">Hawk Missle Launcher: Three-Headed Beast</name>
+				<prepared type="number">0</prepared>
+				<range type="string">150 feet</range>
+				<ritual type="number">0</ritual>
+				<school type="string">Combat</school>
+				<shortdescription type="string">Advancement</shortdescription>
+				<source type="string">Soldier, Tracker</source>
+			</id-00233>
 			<id-00244>
 				<actions>
 					<id-00001>
@@ -39147,6 +39395,7 @@
 							<id-00001>
 								<bonus type="number">0</bonus>
 								<dice type="dice">d6</dice>
+								<stat type="string">strength</stat>
 								<statmult type="number">1</statmult>
 								<type type="string">piercing</type>
 							</id-00001>
@@ -39164,7 +39413,7 @@
 					<id-00006>
 						<durmod type="number">1</durmod>
 						<durunit type="string">minute</durunit>
-						<label type="string">AC:2; DISCHK: dexterity</label>
+						<label type="string">AC:2; DISSAV: dexterity</label>
 						<order type="number">2</order>
 						<targeting type="string">self</targeting>
 						<type type="string">effect</type>
@@ -39200,6 +39449,7 @@
 							<id-00001>
 								<bonus type="number">0</bonus>
 								<dice type="dice">d6</dice>
+								<stat type="string">strength</stat>
 								<statmult type="number">1</statmult>
 								<type type="string">piercing</type>
 							</id-00001>
@@ -39215,9 +39465,12 @@
 						<type type="string">effect</type>
 					</id-00002>
 					<id-00003>
+						<atkmod type="number">0</atkmod>
+						<atkprof type="number">1</atkprof>
 						<order type="number">4</order>
 						<savedcbase type="string">fixed</savedcbase>
 						<savedcmod type="number">14</savedcmod>
+						<savedcprof type="number">1</savedcprof>
 						<savemagic type="number">1</savemagic>
 						<savetype type="string">constitution</savetype>
 						<type type="string">cast</type>
@@ -39232,7 +39485,7 @@
 					<id-00008>
 						<durmod type="number">1</durmod>
 						<durunit type="string">minute</durunit>
-						<label type="string">AC:2; DISCHK: dexterity</label>
+						<label type="string">AC:2; DISSAV: dexterity</label>
 						<order type="number">2</order>
 						<targeting type="string">self</targeting>
 						<type type="string">effect</type>
@@ -39270,6 +39523,7 @@
 							<id-00001>
 								<bonus type="number">0</bonus>
 								<dice type="dice">d6</dice>
+								<stat type="string">strength</stat>
 								<statmult type="number">1</statmult>
 								<type type="string">piercing</type>
 							</id-00001>
@@ -39285,8 +39539,10 @@
 						<type type="string">effect</type>
 					</id-00002>
 					<id-00006>
+						<atkbase type="string">ability</atkbase>
 						<atkmod type="number">0</atkmod>
 						<atkprof type="number">1</atkprof>
+						<atkstat type="string">strength</atkstat>
 						<atktype type="string">melee</atktype>
 						<order type="number">4</order>
 						<savedcmod type="number">0</savedcmod>
@@ -39297,7 +39553,7 @@
 					<id-00007>
 						<durmod type="number">1</durmod>
 						<durunit type="string">minute</durunit>
-						<label type="string">AC:2; DISCHK: dexterity</label>
+						<label type="string">AC:2; DISSAV: dexterity</label>
 						<order type="number">2</order>
 						<targeting type="string">self</targeting>
 						<type type="string">effect</type>
@@ -39815,146 +40071,6 @@
 				<shortdescription type="string">Advancement</shortdescription>
 				<source type="string">Soldier, Tracker</source>
 			</id-00318>
-			<id-00319>
-				<actions>
-					<id-00001>
-						<atktype type="string">ranged</atktype>
-						<order type="number">1</order>
-						<type type="string">cast</type>
-					</id-00001>
-					<id-00002>
-						<durmod type="number">1</durmod>
-						<durunit type="string">minute</durunit>
-						<label type="string">DMGO: 1d6 necrotic; (C)</label>
-						<order type="number">3</order>
-						<type type="string">effect</type>
-					</id-00002>
-					<id-00003>
-						<damagelist>
-							<id-00001>
-								<bonus type="number">0</bonus>
-								<dice type="dice">d10</dice>
-								<stat type="string">base</stat>
-								<statmult type="number">1</statmult>
-								<type type="string">necrotic</type>
-							</id-00001>
-						</damagelist>
-						<order type="number">2</order>
-						<type type="string">damage</type>
-					</id-00003>
-				</actions>
-				<castingtime type="string">1 action</castingtime>
-				<components type="string">Primed: Necrotic</components>
-				<description type="formattedtext">
-					<p>Make a ranged spell attack on a creature you can see within range. On a hit, you plague the target with a persistent, damaging biotic field. The creature is primed: necrotic and takes 1d6 necrotic damage and 1d6 necrotic damage at the start of your turn while you maintain the power. If the creature dies, dark channel transfers to the nearest hostile creature within 30 feet of the target.</p>
-					<p />
-					<p>The damage increases by 1d6 when you reach the 5th level (2d6), 11th level (3d6) and 17th level (4d6).</p>
-				</description>
-				<duration type="string">Concentration, up to 1 minute</duration>
-				<group type="string">Spells (Adept)</group>
-				<level type="number">0</level>
-				<name type="string">Dark Channel</name>
-				<prepared type="number">1</prepared>
-				<range type="string">120 feet</range>
-				<ritual type="number">0</ritual>
-				<school type="string">Biotic</school>
-				<shortdescription type="string">Standard</shortdescription>
-				<source type="string">Adept</source>
-			</id-00319>
-			<id-00320>
-				<actions>
-					<id-00001>
-						<atktype type="string">ranged</atktype>
-						<order type="number">1</order>
-						<type type="string">cast</type>
-					</id-00001>
-					<id-00002>
-						<durmod type="number">1</durmod>
-						<durunit type="string">minute</durunit>
-						<label type="string">DMGO: 1d6 necrotic; ATK: -1d4; SAVE: -1d4; (C)</label>
-						<order type="number">3</order>
-						<type type="string">effect</type>
-					</id-00002>
-					<id-00003>
-						<damagelist>
-							<id-00001>
-								<bonus type="number">0</bonus>
-								<dice type="dice">d6</dice>
-								<stat type="string">base</stat>
-								<statmult type="number">1</statmult>
-								<type type="string">necrotic</type>
-							</id-00001>
-						</damagelist>
-						<order type="number">2</order>
-						<type type="string">damage</type>
-					</id-00003>
-				</actions>
-				<castingtime type="string">1 action</castingtime>
-				<components type="string">Primed: Necrotic</components>
-				<description type="formattedtext">
-					<p>Make a ranged spell attack on a creature you can see within range. On a hit, you plague the target with a persistent, damaging biotic field. The creature is primed: necrotic and takes 1d6 necrotic damage and 1d6 necrotic damage at the start of your turn while you maintain the power. If the creature dies, dark channel transfers to the nearest hostile creature within 30 feet of the target.</p>
-					<p />
-					<p>If the affected creature would make a saving throw or attack roll, as a reaction you may increase the severity of Dark Channel. The affected creature must roll a d4 and subtract the number rolled from the attack roll or saving throw.</p>
-					<p />
-					<p>The damage increases by 1d6 when you reach the 5th level (2d6), 11th level (3d6) and 17th level (4d6).</p>
-				</description>
-				<duration type="string">Concentration, up to 1 minute</duration>
-				<group type="string">Spells (Adept)</group>
-				<level type="number">0</level>
-				<name type="string">Dark Channel: Cripple</name>
-				<prepared type="number">1</prepared>
-				<range type="string">120 feet</range>
-				<ritual type="number">0</ritual>
-				<school type="string">Biotic</school>
-				<shortdescription type="string">Advancement</shortdescription>
-				<source type="string">Adept</source>
-			</id-00320>
-			<id-00321>
-				<actions>
-					<id-00001>
-						<atktype type="string">ranged</atktype>
-						<order type="number">1</order>
-						<type type="string">cast</type>
-					</id-00001>
-					<id-00002>
-						<durmod type="number">1</durmod>
-						<durunit type="string">minute</durunit>
-						<label type="string">DMGO: 1d10 necrotic; (C)</label>
-						<order type="number">3</order>
-						<type type="string">effect</type>
-					</id-00002>
-					<id-00003>
-						<damagelist>
-							<id-00001>
-								<bonus type="number">0</bonus>
-								<dice type="dice">d10</dice>
-								<stat type="string">base</stat>
-								<statmult type="number">1</statmult>
-								<type type="string">necrotic</type>
-							</id-00001>
-						</damagelist>
-						<order type="number">2</order>
-						<type type="string">damage</type>
-					</id-00003>
-				</actions>
-				<castingtime type="string">1 action</castingtime>
-				<components type="string">Primed: Necrotic</components>
-				<description type="formattedtext">
-					<p>Make a ranged spell attack on a creature you can see within range. On a hit, you plague the target with a persistent, damaging biotic field. The creature is primed: necrotic and takes 1d10 necrotic damage and 1d10 necrotic damage at the start of your turn while you maintain the power. If the creature dies, dark channel transfers to the nearest hostile creature within 30 feet of the target.</p>
-					<p />
-					<p>The damage increases by 1d10 when you reach the 5th level (2d10), 11th level (3d10) and 17th level (4d10).</p>
-				</description>
-				<duration type="string">Concentration, up to 1 minute</duration>
-				<group type="string">Spells (Adept)</group>
-				<level type="number">0</level>
-				<name type="string">Dark Channel: Improved Damage</name>
-				<prepared type="number">1</prepared>
-				<range type="string">120 feet</range>
-				<ritual type="number">0</ritual>
-				<school type="string">Biotic</school>
-				<shortdescription type="string">Advancement</shortdescription>
-				<source type="string">Adept</source>
-			</id-00321>
 			<id-00322>
 				<actions>
 					<id-00001>
