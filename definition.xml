@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root version="4.5" dataversion="20230911" release="8.1|CoreRPG:6">
-	<name>Mass Effect 5e</name>
+	<name>mass_effect_5e</name>
+	<displayname>Mass Effect 5e</displayname>
 	<author>Stygian</author>
 	<ruleset>5E</ruleset>
 </root>
