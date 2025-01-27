@@ -32,9 +32,17 @@ This mod only aims to make using fantasy grounds easier for anyone following the
 3. Grab the extension
 	1. I am working on an extension to add more of the rules directly into Fantasy Grounds.  You can find it [here on github](https://github.com/stygiansabyss/mass-effect-5e-fantasy-grounds-ext).
 4. Add the Advanced Effects extension
-	1. I have enabled the mods of the game to use advanced effects.
-	2. If you have the extension adtive in your game, the mods will have any effects that would work for them in fantasy grounds to accomplish their effect.
-	3. To make equipping and unequipping easier, when you add a mod to your inventory, set its location to the name of the weapon or armor piece that will use it.  This will allow you to equip/unequip the weapon or armor piece to enable/disable the effects
+	1. https://forge.fantasygrounds.com/shop/items/68/view
+	2. I have enabled the mods of the game to use advanced effects.
+	3. If you have the extension adtive in your game, the mods will have any effects that would work for them in fantasy grounds to accomplish their effect.
+	4. To make equipping and unequipping easier, when you add a mod to your inventory, set its location to the name of the weapon or armor piece that will use it.  This will allow you to equip/unequip the weapon or armor piece to enable/disable the effects
+5. Add the Jack of All Things extension
+	1. https://forge.fantasygrounds.com/shop/items/1959/view
+	2. Not sure if this is needed to make my changes work, but I added proper actions and charges to all spells using this.
+6. Add the Pets Extension
+	1. https://forge.fantasygrounds.com/shop/items/1960/view
+	2. This adds a pets tab to PCs and NPCs
+	3. I have made use of this for any NPC that can summon another NPC.
 
 # Unique Choices Made
 
